@@ -4,18 +4,70 @@
     "female": 5
   },
   "people": [
-    { "name": "Marina", "email": "" },
-    { "name": "Momchi", "email": "" },
-    { "name": "Wen", "email": "" },
-    { "name": "Long", "email": "" },
-    { "name": "Kolio", "email": "" },
-    { "name": "Gor", "email": "" },
-    { "name": "Vladi", "email": "" },
-    { "name": "Kalo", "email": "" },
-    { "name": "Hris", "email": "" },
-    { "name": "Stefi", "email": "" },
-    { "name": "Veronika", "email": "" },
-    { "name": "Viksmen", "email": "" },
-    { "name": "Jikata", "email": "" }
+    {
+      "id": 1,
+      "name": "Marina",
+      "email": ""
+    },
+    {
+      "id": 2,
+      "name": "Momchi",
+      "email": ""
+    },
+    {
+      "id": 3,
+      "name": "Wen",
+      "email": ""
+    },
+    {
+      "id": 4,
+      "name": "Long",
+      "email": ""
+    },
+    {
+      "id": 5,
+      "name": "Kolio",
+      "email": ""
+    },
+    {
+      "id": 6,
+      "name": "Gor",
+      "email": ""
+    },
+    {
+      "id": 7,
+      "name": "Vladi",
+      "email": ""
+    },
+    {
+      "id": 8,
+      "name": "Kalo",
+      "email": ""
+    },
+    {
+      "id": 9,
+      "name": "Hris",
+      "email": ""
+    },
+    {
+      "id": 10,
+      "name": "Stefi",
+      "email": ""
+    },
+    {
+      "id": 11,
+      "name": "Veronika",
+      "email": ""
+    },
+    {
+      "id": 12,
+      "name": "Viksmen",
+      "email": ""
+    },
+    {
+      "id": 13,
+      "name": "Jikata",
+      "email": ""
+    }
   ]
 }
