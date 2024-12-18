@@ -3,5 +3,19 @@
     "male": 8,
     "female": 5
   },
-  "people": []
+  "people": [
+    { "name": "Marina", "email": "" },
+    { "name": "Momchi", "email": "" },
+    { "name": "Wen", "email": "" },
+    { "name": "Long", "email": "" },
+    { "name": "Kolio", "email": "" },
+    { "name": "Gor", "email": "" },
+    { "name": "Vladi", "email": "" },
+    { "name": "Kalo", "email": "" },
+    { "name": "Hris", "email": "" },
+    { "name": "Stefi", "email": "" },
+    { "name": "Veronika", "email": "" },
+    { "name": "Viksmen", "email": "" },
+    { "name": "Jikata", "email": "" }
+  ]
 }
