@@ -6,68 +6,55 @@
   "people": [
     {
       "id": 1,
-      "name": "Marina",
-      "email": ""
+      "name": "Marina"
     },
     {
       "id": 2,
-      "name": "Momchi",
-      "email": ""
+      "name": "Momchi"
     },
     {
       "id": 3,
-      "name": "Wen",
-      "email": ""
+      "name": "Wen"
     },
     {
       "id": 4,
-      "name": "Long",
-      "email": ""
+      "name": "Long"
     },
     {
       "id": 5,
-      "name": "Kolio",
-      "email": ""
+      "name": "Kolio"
     },
     {
       "id": 6,
-      "name": "Gor",
-      "email": ""
+      "name": "Gor"
     },
     {
       "id": 7,
-      "name": "Vladi",
-      "email": ""
+      "name": "Vladi"
     },
     {
       "id": 8,
-      "name": "Kalo",
-      "email": ""
+      "name": "Kalo"
     },
     {
       "id": 9,
-      "name": "Hris",
-      "email": ""
+      "name": "Hris"
     },
     {
       "id": 10,
-      "name": "Stefi",
-      "email": ""
+      "name": "Stefi"
     },
     {
       "id": 11,
-      "name": "Veronika",
-      "email": ""
+      "name": "Veronika"
     },
     {
       "id": 12,
-      "name": "Viksmen",
-      "email": ""
+      "name": "Viksmen"
     },
     {
       "id": 13,
-      "name": "Jikata",
-      "email": ""
+      "name": "Jikata"
     }
   ]
 }
