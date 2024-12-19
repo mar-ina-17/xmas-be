@@ -1,15 +1,11 @@
 const jsonServer = require("json-server");
-const cors = require("cors"); // Import the cors package
 const fs = require("fs");
 const path = require("path");
 
 const server = jsonServer.create();
 const filePath = path.join("db.json");
 const middlewares = jsonServer.defaults();
-
-// Enable CORS for all origins
-server.use(cors());
-
+server.use(cors);
 // Load the current database
 let db = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
