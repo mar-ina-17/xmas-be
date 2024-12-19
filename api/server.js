@@ -9,18 +9,18 @@ const middlewares = jsonServer.defaults();
 let db = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
 // Middleware to replace the /people data
-server.post("/people", (req, res) => {
+server.delete("/people/:name", (req, res) => {
   try {
-    // Overwrite the people array with new data
-    db.people = req.body;
+    const { name } = req.params;
+    db.people = db.people.filter((person) => person.name !== name);
 
     // Save the updated database back to the file
     fs.writeFileSync(filePath, JSON.stringify(db, null, 2));
 
-    res.status(200).send("People data replaced successfully");
+    res.status(200).send(`Person with name ${name} deleted successfully`);
   } catch (err) {
-    console.error("Error updating people:", err);
-    res.status(500).send("Failed to update people data");
+    console.error("Error deleting person:", err);
+    res.status(500).send("Failed to delete person");
   }
 });
 
