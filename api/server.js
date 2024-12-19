@@ -5,7 +5,6 @@ const path = require("path");
 const server = jsonServer.create();
 const filePath = path.join("db.json");
 const middlewares = jsonServer.defaults();
-server.use(cors);
 // Load the current database
 let db = JSON.parse(fs.readFileSync(filePath, "utf-8"));
 
